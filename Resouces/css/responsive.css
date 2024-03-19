@@ -1,0 +1,62 @@
+/* small phone 0 to 480px  */
+@media only screen and (max-width: 480px){
+    section{ padding: 25px 0; }
+    .contact-form { width: 100% !important; padding: 0; }
+    h2 { font-size: 1.2rem; }
+    body { font-size: 0.8rem; }
+    .row { padding: 0; }
+    .social-link { text-align: center; float: none; }
+    .footer-nav { text-align: center; float: none; }
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* small phones to small tablet from 481 to 767px  */
+@media only screen and (max-width: 767px){
+    body { font-size: 1rem; }
+    section { padding: 30px 0; }
+    .row, .hero-text-box { padding: 0 4%; }
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-6,
+    .col-md-8 {
+        width: 100% !important; 
+        margin: 0 0 4% 0;
+    }
+    .main-nav {
+        display: none;
+    }
+    .steps-box:first-child{
+        text-align: center;
+    }
+    .work-step {
+        margin-bottom: 20px;
+    }
+    .work-step:last-of-type{
+        margin-bottom: 20px;
+    }
+}
+
+/* small phones to big small tablet from 768 to 1023px  */
+@media only screen and (max-width: 1023px){
+    body { font-size: 1.2rem; }
+    section { padding: 60px 0; }
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .work-step { margin-bottom: 40px; }
+    .work-step:last-of-type { margin-bottom: 60px; }
+    .contact-form { width: 80%; }
+}
+
+/* small big tablet ton laptop screen from 1024 to 1200px  */
+@media only screen and (max-width: 1200px){
+    .hero-text-box {
+        width: 100%;
+        padding: 0 1.5rem;
+      }      
+    
+    .row { padding: 0 1rem; }
+}
